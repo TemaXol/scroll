@@ -1,0 +1,31 @@
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 768px) {
+ul.accordion li:nth-child(3) {
+    height: 259px;
+    width: 124px;
+    right: 300px;
+    z-index: 3;
+
+}
+
+ul.accordion li:nth-child(2) {
+    height: 231px;
+    width: 108px;
+    right: 400px;
+    z-index: 2;
+
+}
+
+
+ul.accordion li:nth-child(1) {
+   height: 197px;
+   width: 97px;
+   right: 450px;
+    z-index: 1;
+
+}
+}

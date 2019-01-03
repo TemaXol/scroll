@@ -1,0 +1,78 @@
+
+.dws-wrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    position: absolute;
+    left: 600px;
+
+}
+ul.accordion {
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-top: 220px;
+    padding: 0;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 600px;
+    
+
+}
+
+ul.accordion img {
+    width: 100%;
+    height: auto;
+
+
+
+}
+/*ul.accordion img.scroll-1 {
+    width: 100%;
+    height: auto;
+    outline:none;
+}
+ul.accordion img.scroll-2 {
+    width: 100%;
+    height: auto;
+    outline:none; 
+}*/
+ul.accordion li {
+    display: block;
+    box-shadow: 0px 0px 70px 0px rgba(0,0,0,0.5);
+    cursor: pointer;
+    width: 600px;
+    transition: all 0.5s;
+    z-index: 3;
+    position: absolute;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    right: 0;
+
+}
+
+ul.accordion li:nth-child(3) {
+    height: 778px;
+    width: 373px;
+    right: 0;
+    z-index: 3;
+}
+
+ul.accordion li:nth-child(2) {
+    height: 693px;
+    width: 332px;
+    right: 250px;
+    z-index: 2;
+}
+
+
+ul.accordion li:nth-child(1) {
+   height: 591px;
+   width: 290px;
+    right: 400px;
+    z-index: 1;
+}
+
