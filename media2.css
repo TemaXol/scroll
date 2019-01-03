@@ -6,7 +6,7 @@
 @media only screen and (max-width : 768px) {
 ul.accordion li:nth-child(3) {
     height: 259px;
-    width: 124px;
+    width: 128px;
     right: 300px;
     z-index: 3;
 
@@ -14,7 +14,7 @@ ul.accordion li:nth-child(3) {
 
 ul.accordion li:nth-child(2) {
     height: 231px;
-    width: 108px;
+    width: 112px;
     right: 400px;
     z-index: 2;
 
